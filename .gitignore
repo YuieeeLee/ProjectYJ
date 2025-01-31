@@ -1,0 +1,8 @@
+# Godot 4+ 忽略规则
+.godot/
+*.import
+export_presets.cfg
+
+# 系统文件（可选）
+.DS_Store
+Thumbs.db
