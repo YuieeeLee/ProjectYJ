@@ -1,2 +1,0 @@
-# ProjectYJ
-GodotProjectYJ
