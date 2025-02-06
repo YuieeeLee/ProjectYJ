@@ -1,6 +1,7 @@
 # Godot 4+ 忽略规则
 .godot/
 *.import
+.vscode
 export_presets.cfg
 
 # 系统文件（可选）
