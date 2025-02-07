@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="Project_YJ"
+run/main_scene="res://Scene/Chacerate/player.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/TileMapDual/plugin.cfg")
+enabled=PackedStringArray("res://addons/TileMapDual/plugin.cfg", "res://addons/nklbdev.importality/plugin.cfg")
 
 [rendering]
 

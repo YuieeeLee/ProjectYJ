@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://cdybglk7vpu0i"]
+[gd_scene load_steps=2 format=3 uid="uid://cdybglk7vpu0i"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t1qua"]
 
 [node name="PlayerMain" type="Node2D"]
+visible = false
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CapsuleShape2D_t1qua")
